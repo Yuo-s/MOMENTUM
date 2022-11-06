@@ -1,0 +1,52 @@
+/* 입력후 */
+#greeting {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: azure;
+}
+/* 로그인화면 */
+#login-form {
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 로그인입력 */
+#form1 {
+    width: 400px;
+    height: 60px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 30px;
+    opacity: 80%;
+    border: 4px solid #E5E5E5;
+}
+#login-form input::placeholder {
+    color: black;
+}
+/* 로그인버튼 */
+#form2 {
+    position:absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    opacity: 90%;
+    border-radius: 10px;
+    border: solid #E5E5E5;
+}

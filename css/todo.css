@@ -1,0 +1,25 @@
+/* 할일입력 */
+#todo-form input {
+    position:absolute;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 4px solid wheat;
+    opacity: 80%;
+}
+#todo-form input::placeholder {
+    color: white;
+}
+/* 할일내용*/
+#todo-list {
+    position:absolute;
+    top: 35%;
+    color: wheat;
+}
